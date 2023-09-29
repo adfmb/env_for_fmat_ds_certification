@@ -1,0 +1,12 @@
+name: conda_01
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - jupyterlab-spreadsheet-editor
+  - jupyterlab-github
+  - jupyterlab-system-monitor
